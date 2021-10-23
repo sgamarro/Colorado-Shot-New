@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: ;
+}
+html{
+
+    scroll-behavior: smooth;
+    scroll-snap-align: y mandatory;
+}
+nav{
+    text-align: center;
+    background: rgb(0, 0, 0, 0.3) ;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+}
+.shot{
+    margin-top: 40px;
+    text-align: center;
+    font-family: carattere, cursive;
+}
+#section1{
+    background-image: url(images/tim-arterbury-n-zEC_AypI8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+height: 100vh;
+
+}
+#welcome{
+    margin-right: 600px;
+    margin-bottom:30px ;
+    font-size: 20px;
+    color: white;
+    line-height: 25px;
+position: bottom;
+}
+#section3{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.com1{
+    flex: 2%;
+        max-width: 25%;
+        padding: 0 4px;  
+}
+.com1 img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 300px;
+}
