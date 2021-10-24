@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
 }
-body{
-    height: ;
-}
 html{
 
     scroll-behavior: smooth;
@@ -27,10 +24,14 @@ a{
     padding: 10px;
 }
 .shot{
-    margin-top: 40px;
+    margin-top: 55px;
     text-align: center;
     font-family: carattere, cursive;
+    font-size: 70px;
+    color: white;
+    padding: 1.3em;
 }
+
 #section1{
     background-image: url(images/tim-arterbury-n-zEC_AypI8-unsplash.jpg);
     background-size: cover;
@@ -82,11 +83,27 @@ height: 100vh;
     color: white;
     line-height: 25px;
 position: bottom;
+background: rgb(0, 0, 0, 0.7) ;
+
+
+}
+h3{
+    font-family: carattere,cursive;
+    font-size: 20px;
 }
 #section3{
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+}
+.text1{
+    text-align: center;
+    font-size: 20px;
+    margin: 50px 100px 10px 100px;
+}
+.text1 h4{
+    font-family: carattere,cursive;
+    font-size: 50px;
 }
 .com1{
     flex: 2%;
@@ -97,6 +114,37 @@ position: bottom;
     margin-top: 8px;
     vertical-align: middle;
     width: 300px;
+    border-radius: 25px;
+}
+form {
+    max-width: 480px;
+    margin: 200px auto;
+    padding: 16px;
+    border: 1px solid #eaeaea;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+footer{
+    font-style: italic;
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   filter: opacity(50%);
+}
+#section4{
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 @media (max-width: 700px) {
     .card{
