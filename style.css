@@ -23,6 +23,7 @@ a{
     margin: 5px;
     padding: 10px;
 }
+
 .shot{
     margin-top: 55px;
     text-align: center;
@@ -147,7 +148,40 @@ flex-direction: column;
 align-items: center;
 }
 @media (max-width: 700px) {
+    body{
+        margin: 25px 6%;
+    }
+    #section1{
+        background-size: cover;
+    }
+    .shot{
+        margin-top: 40px;
+        text-align: center;
+        font-family: carattere, cursive;
+        font-size: 40px;
+        color: white;
+        padding: 35px;
+        padding-bottom: 50px;
+    }
+    #welcome{
+        margin-top: 30px;
+        margin-right: 60px;
+        margin-bottom:3px ;
+        font-size: 15px;
+        color: white;
+        line-height: 25px;
+    position: bottom;
+    background: rgb(0, 0, 0, 0.7) ;
+    
+    
+    }
     .card{
         display: block;
     }
+#section3{
+    margin: 15px 6%;
+}
+    .com1 img{
+    
+       } 
 }
