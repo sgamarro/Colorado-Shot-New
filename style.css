@@ -42,6 +42,7 @@ height: 100vh;
 #section2{
     max-width: 900px;
     margin: auto;
+    margin-top: 20px;
     padding: 0 2rem;
 }
 #section2 img{
@@ -51,7 +52,7 @@ height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
-    background: #f1f1f1;
+    
     margin-bottom:2rem;
 }
 .card img{
@@ -96,4 +97,9 @@ position: bottom;
     margin-top: 8px;
     vertical-align: middle;
     width: 300px;
+}
+@media (max-width: 700px) {
+    .card{
+        display: block;
+    }
 }
