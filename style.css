@@ -39,6 +39,41 @@ a{
 height: 100vh;
 
 }
+#section2{
+    max-width: 900px;
+    margin: auto;
+    padding: 0 2rem;
+}
+#section2 img{
+    width: 100%;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    background: #f1f1f1;
+    margin-bottom:2rem;
+}
+.card img{
+    height: 250px;
+}
+.card div{
+    padding: 2rem;
+}
+.card:nth-child(even) img{
+    order: 2;
+}
+.btn{
+    display: inline-block;
+    background: black;
+    color: #fff;
+    padding: 0.8rem 1.8rem;
+    /* margin-top: 2rem; */
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.8;
+}
 #welcome{
     margin-right: 600px;
     margin-bottom:30px ;
